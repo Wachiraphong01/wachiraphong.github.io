@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year 2025 @ บ้านเบียร์</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&family=Outfit:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="fireworks-container"></div>
+
+        <main>
+            <section class="party-card glass-panel">
+                <div class="header-content">
+                    <div class="year-badge">2025</div>
+                    <h1>ฉลองปีใหม่ <br><span class="gradient-text">บ้านเบียร์</span> 🍻</h1>
+                    <p class="subtitle">ใครจะไปบ้าง ลงชื่อไว้เลย!</p>
+                </div>
+
+                <div class="rsvp-form-container">
+                    <div class="input-group">
+                        <i class="fa-solid fa-user-pen"></i>
+                        <input type="text" id="guestName" placeholder="ใส่ชื่อของคุณ..." autocomplete="off">
+                    </div>
+                    <button id="joinBtn" class="glow-btn">ไปดิค้าบ! 🚀</button>
+                </div>
+
+                <div class="attendees-section">
+                    <h2><i class="fa-solid fa-users"></i> แก๊งที่จะไป (<span id="count">0</span>)</h2>
+                    <div class="attendees-list" id="attendeesList">
+                        <!-- Guest items will be added here -->
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
